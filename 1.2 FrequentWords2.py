@@ -28,7 +28,8 @@ def FrequentWords(text, k, t):
             FrequentPatterns.add(control)
     return FrequentPatterns 
     
-
+#############  I/O test  #########################################    
+    
 def ReadInput(dataset):
     data = []
     
@@ -43,7 +44,6 @@ def ReadInput(dataset):
                 break    
     return ''.join(str(e) for e in data)
     
-
 def WriteOutput(output):
     output_data = open("output.txt", "w")
 
