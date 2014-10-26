@@ -77,7 +77,7 @@ def BetterClumpFinding(Genome, k, t, L):
                 FrequentPatterns.add(Pattern)
         return FrequentPatterns
     
-########################################################
+#############  I/O test  ######################################### 
 data = []
 file_name = "dataset.txt"
 with open(file_name, "r") as Text:
