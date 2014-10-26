@@ -25,7 +25,7 @@ def HammingDistance(str1, str2):
             count += 1
     return count
 
-##################################
+#############  I/O test  ######################################### 
 def ReadInput(dataset):
     data = []
     
