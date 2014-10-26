@@ -18,7 +18,7 @@ def findPattern(pattern, genome):
             indeces.add(genome.find(pattern, i))
     return sorted(indeces)        
         
-###############################################################
+#############  I/O test  ######################################### 
 
 #genome = 'GATATATGCATATACTT'
 #pattern = 'ATAT'
