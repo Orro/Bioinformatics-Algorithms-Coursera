@@ -61,7 +61,7 @@ def WriteOutput(output):
 
     output_data.close()
     
-##############Exemple#################   
+#############  I/O test  ######################################### 
 k = 8
 d = 2
 WriteOutput(WordsMismatch(ReadInput("dataset.txt"), k, d))
